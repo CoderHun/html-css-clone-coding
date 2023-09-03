@@ -10,6 +10,22 @@
     background-color: transparent;
   }
 
+  ul{
+    list-style-type: none;
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+.img{
+    background-image: url(img/sp_main.png);
+    background-repeat: no-repeat;
+    background-size: 434px 422px;
+}
+
 /* main structure */
 
 #wrap{
@@ -18,17 +34,10 @@
 
 #header{
     width: 1280px;
-    height: 261px;
-    border: 1px solid green;
+    height: 241px;
     margin: 0 auto;
+    margin-bottom: 111px;
     position: relative;
-}
-
-#main{
-    width: 1280px;
-    height: 1000px;
-    border: 1px solid blue;
-    margin: 0 auto;
 }
 
 /* Header */
@@ -156,4 +165,362 @@
     background-repeat: no-repeat;
     background-size: 434px 422px;
     background-position: -364px -213px;
+}
+
+/* Menu Container */
+
+#menu-container{
+    margin-top: 10px;
+}
+
+#menu-container > ul{
+    margin: 0 auto;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 676px;
+}
+
+#menu-container > ul > li{
+    display: inline-block;
+}
+
+#menu-container > ul > li > a{
+    width: 64px;
+}
+
+#menu-container > ul > li > a > span{
+    display: block;
+    line-height: 20px;
+    font-size: 0.9rem;
+}
+
+
+
+#mail > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#mail > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -250px -90px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#cafe > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#cafe > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -250px 0px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#blog > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#blog > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -201px -98px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#shopping > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#shopping > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -90px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#news > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#news > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#stock > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#stock > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -180px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#real-estate > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#real-estate > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -45px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#map > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#map > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -201px 0px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#webtoon > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#webtoon > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -225px -209px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#more > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: 0px -128px;
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 54px;
+    position: relative;
+}
+
+#more > div > div{
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -250px -135px;
+    background-repeat: no-repeat;
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+/* Main */
+#main{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#main-left{
+    width: 830px;
+}
+
+#main-right{
+    width: 420px;
+    margin-left: auto;
+}
+
+#news-stand{
+    height: 426px;
+    border: 1px solid rgba(128,128,128,0.3);
+    border-radius: 3px;
+}
+
+#log-in{
+    height: 164px;
+    border: 1px solid rgba(128,128,128,0.3);
+    border-radius: 3px;
+}
+
+#news-menu{
+    padding: 18px 20px 17px;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+#news-menu > li{
+    display:flex;
+    justify-content: flex-start;
+}
+
+#news-menu > li > a{
+    display:inline-block;
+}
+
+#news-menu > li > a:hover{
+    text-decoration: dashed;
+}
+
+
+
+#news-menu > li > a{
+    color: rgba(128,128,128,0.8);
+}
+
+#news-menu > li > a:nth-child(1){
+    color: black;
+    font-weight: bold;
+}
+
+
+#news-menu > li > a:nth-child(2)::before{
+    content: "";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 7px 7px;
+    background-color: #d3d5d7;
+}
+
+#news-menu > li > a:nth-child(3)::before,
+#news-menu > li > a:nth-child(4)::before,
+#news-menu > li > a:nth-child(5)::before{
+    content: "";
+    display: inline-block;
+    position: relative;
+    width: 1px;
+    height: 15px;
+    background-color: #d3d5d7;
+    -webkit-transform: skewX(-15deg);
+    -ms-transform: skewX(-15deg);
+    transform: skewX(-15deg);
+    margin : 0 10px;
+}
+
+#news-menu > li > a:nth-child(4) > span{
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: #f4361e;;
+    border-radius: 9px;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    padding: 0 5px 0 4px;
+}
+
+#news-menu > li > a:nth-child(4) > span::before{
+    content: "";
+    display: inline-block;
+    background-image: url(img/sp_main.png);
+    background-size: 434px 422px;
+    background-position: -416px -398px;
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 10px;
+    margin-right: 5px;
 }
